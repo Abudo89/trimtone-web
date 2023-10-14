@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Trimtone - Security Company Limited</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Trimtone Security Company Ltd" name="keywords">
+    <meta content="Trimtone Security Company Ltd" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Flaticon Font -->
+    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+  <body { padding: 2rem 0; }>
+<div class="container">
+  <div class="row mx-0 justify-content-center">
+    <div class="col-md-7 col-lg-5 px-lg-2 col-xl-4 px-xl-0 px-xxl-3">
+     <form id='apply' action='send_email.php' method='post'>
+        <label class="d-block mb-4">
+          <span class="form-label d-block">Your name</span>
+          <input required
+            name="name"
+            type="text"
+            class="form-control"
+            placeholder="Alice Koli"
+          />
+        </label>
+
+        <label class="d-block mb-4">
+          <span class="form-label d-block">Email address</span>
+          <input
+            required
+            name="email"
+            type="email"
+            class="form-control"
+            placeholder="alice.koli@example.com"
+          />
+        </label>
+
+        <label class="d-block mb-4">
+          <span class="form-label d-block">Years of experience</span>
+          <select required name="experience" class="form-select">
+            <option>Less than a year</option>
+            <option>1 - 2 years</option>
+            <option>2 - 4 years</option>
+            <option>4 - 7 years</option>
+            <option>7 - 10 years</option>
+            <option>10+ years</option>
+          </select>
+        </label>
+
+        <label class="d-block mb-4">
+          <span class="form-label d-block">Tell us more about yourself</span>
+          <textarea
+            name="message"
+            class="form-control"
+            rows="3"
+            placeholder="What motivates you?"
+          ></textarea>
+        </label>
+
+        <label class="d-block mb-4">
+          <span class="form-label d-block">Your CV</span>
+          <input required name="cv" type="file" class="form-control" />
+        </label>
+
+        <div class="mb-4">
+          <div>
+            <div class="form-check">
+              <label class="d-block">
+                <input
+                  type="radio"
+                  class="form-check-input"
+                  name="remote"
+                  value="yes"
+                  checked
+                />
+                <span class="form-check-label"
+                  >I have a driving licence</span
+                >
+              </label>
+            </div>
+          </div>
+          <div>
+            <label class="form-check">
+              <input
+                type="radio"
+                class="form-check-input"
+                name="remote"
+                value="no"
+              />
+              <span class="form-check-label">I dont have a driving licence</span>
+            </label>
+          </div>
+        </div>
+
+        <div class="mb-3">
+          <button type="submit" class="btn btn-primary px-3 rounded-3">
+            Apply
+          </button>
+        </div>
+
+        <div class="d-block text-end">
+          <div class="small">
+            by
+            <a href="https://trimtonesecurity.com"
+              class="text-dark text-decoration-none"
+              target="_blank"
+              >Hr dept</a
+            >
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+</body>
+</html>
